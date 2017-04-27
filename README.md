@@ -1,6 +1,6 @@
 # npmtest-passport-twitter
 
-#### test coverage for  [passport-twitter (v1.0.4)](https://github.com/jaredhanson/passport-twitter#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-twitter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-twitter.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-twitter)
+#### basic test coverage for  [passport-twitter (v1.0.4)](https://github.com/jaredhanson/passport-twitter#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-twitter.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-twitter) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-twitter.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-twitter)
 
 #### Twitter authentication strategy for Passport.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-passport-twitter/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-passport-twitter/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-passport-twitter/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-passport-twitter/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-twitter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-twitter/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-passport-twitter/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-passport-twitter/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-twitter/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-twitter/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-passport-twitter/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-passport-twitter/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
     "scripts": {
         "test": "mocha --require test/bootstrap/node test/*.test.js"
     },
-    "version": "1.0.4"
+    "version": "1.0.4",
+    "bin": {}
 }
 ```
 
